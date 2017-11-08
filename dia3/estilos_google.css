@@ -1,0 +1,19 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.horizontal{
+	display: inline;
+	
+}
+
+.boton{
+	width: 200px;
+	height: 100px;
+	background-color: #f2f2f2;
+	color: #757575;
+	border-radius: 2px;
+	border: 1px solid #f2f2f2;
+	font-family: arial,sans-serif;
+}

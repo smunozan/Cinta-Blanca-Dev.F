@@ -1,0 +1,55 @@
+/*selectores*/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+	/*colores en ingles o hexadecimales*/
+	color: black;
+	font-family: helvetica;
+	font-style: bold;
+	border: 2px solid black;
+	height: 100px;
+	width: 100px;
+	border-radius: 15px;
+
+}
+
+p{
+	font-size: 36px;
+}
+
+nav{
+	background-color: #5882FA;
+	height: 300px;
+	width: 800px
+}
+/*Tamanos en porcentaje y pixeles, o auto*/
+ul{
+	background-color: red;
+	width: 10%;
+	height: 100%
+}
+/*padding hacia el centro*/
+/*margin hacia afuera*/
+div{
+	padding-top: 100px;
+	padding-left: 10%;
+	background-color: #00417d;
+	width: auto;
+	height:auto;
+	border-radius: 50%;
+
+}
+/*border radius es para circular los bordes*/
+
+.titulo{
+	font-size: 20px;
+}
+.parrafo{
+	font-size: 10px;
+	border: 20px solid black;
+	width: 200px;
+
+}

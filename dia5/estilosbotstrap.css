@@ -1,0 +1,61 @@
+#navegacion{
+	background-color: orange;
+	height: 40px;
+}
+
+#principal{
+	background-color: red;
+	height: 700px;
+}
+
+#menu{
+	background-color: blue;
+	height: 100%;
+	padding: 0px;
+}
+
+#logo{
+	height: 15%;
+	width: 100%;
+	padding-top: 14%;
+	padding-left: 10px;
+	background-color: black;
+	color: white;
+}
+
+#search{
+	padding-left: 10px;
+}
+
+#searchnear{
+	font-size: 20px;
+}
+
+#searchbar{
+	width: 95%;
+}
+
+#cuerpo{
+	background-color: green;
+}
+
+#entertainment{
+	background-color: brown;
+	height: 30%;
+}
+
+#columnas{
+	height: 70%
+}
+
+#col1{
+	background-color: black;
+}
+
+#col2{
+	background-color: grey;
+}
+
+#col3{
+	background-color: yellow;
+}

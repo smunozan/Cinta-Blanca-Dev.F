@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#navegacion{
+	/*border:2px solid;*/
+}
+
+#elementos-nav{
+	/*border:2px solid blue;*/
+	display: flex;
+	justify-content: flex-end;
+}
+
+#lista-nav{
+	/*border:2px solid green;*/
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: fit-content;
+	font-family: arial;
+	font-size: small;
+}
+
+.item-nav{
+	margin: 0 10px;
+}
+
+.cuerpo{
+	/*border:2px solid;*/
+	height: 700px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.elementos-cuerpo{
+	/*border:2px solid blue;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.imagen{
+	/*border:2px solid green;*/
+	width: fit-content;
+}
+
+.google{
+	height: 92px;
+    width: 272px;
+}
+
+.buscador{
+	/*border:2px solid;*/
+	margin: 21px 0 0 0;
+}
+
+.barra{
+	height: 39px;
+	width: 560px;
+}
+
+.botones{
+	/*border:2px solid red;*/
+	margin: 35px 0 0 0;
+
+}
+
+button{
+	height: 39px;
+	width: 126px;
+	font-family: arial;
+	font-size: 13px;
+    font-weight: bold;
+    margin: 0px 4px;
+    color: #757575;
+    background-color: #f2f2f2;
+    border-radius: 2px;
+    border-style: none;
+}
+
+.pie{
+	height: 41px;
+	background-color: #f2f2f2;
+	border: 1px solid #e4e4e4;
+	display: flex;
+	align-items: center;
+}
+
+.mexico{
+	border:2px solid;
+	display: flex;
+	align-items: center;
+	margin: 33px;
+}
+
+.texto{
+	font-family: arial;
+	font-size: 15px;
+	font-weight: 100;
+}

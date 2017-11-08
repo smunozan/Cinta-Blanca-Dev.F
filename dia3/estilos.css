@@ -1,0 +1,9 @@
+p{
+	font-size: 30px;
+}
+
+/*!important es para obligarle a cambiar a algo bloqueado*/
+i{
+	font-size: 150px !important;
+	text-align: right;
+}

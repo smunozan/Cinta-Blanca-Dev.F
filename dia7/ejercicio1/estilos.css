@@ -1,0 +1,209 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	/*border: 2px solid red;*/
+}
+
+.fondo{
+	/*border: 2px solid;*/
+	/*background-image: url(http://www.revolve.ie/wp-content/uploads/2017/08/new-york-city-guide.jpg);*/
+	background-image: url(http://cdn.pcwallart.com/images/dusk-city-wallpaper-wallpaper-3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-position: 0px -100px;*/
+	background-position: 0px -20px;
+	padding: 65px 150px;
+}
+
+.contenido-header{
+	/*border: 2px solid;*/
+	width: 100%;
+	display: flex;
+}
+
+.texto{
+	height: auto;
+	width: 70%;
+	/*display: inline-block;*/
+	/*border: 1px solid green;*/
+	/*background-color: green;*/
+	margin: -2px;
+	color: white;
+	padding-left: 165px;
+}
+
+.imagen{
+/*	height: 499.5px;
+	width: 835px;*/
+	/*display: inline-block;*/
+	/*border: 2px solid black;*/
+	margin: -2px;
+}
+.device{
+	background-image: url(http://www.freeiconspng.com/uploads/iphone-icon-png-25.png);
+	background-size: 480px;
+	background-repeat: no-repeat;
+	background-position: 18px 19px;
+	/*border: 2px solid red;*/
+}
+
+.prueba{
+	height: 499.5px;
+	width: 515px;
+	/*border: 2px solid green;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tamano{
+	width: fit-content;
+	height: fit-content;
+	/*border: 2px solid pink;*/
+}
+
+.screen{
+	height: 340px;
+	width: 208px;
+
+}
+
+
+#titulo{
+	font-family: raleway;
+	font-weight: lighter;
+	margin: 60px 0px 00px 0px;
+	font-size: 58px;
+}
+
+#subtitulo{
+	margin-bottom: 30px;
+	font-family: raleway;
+	font-weight: 400;
+	margin: 27px 0px 00px 0px;
+	font-size: 26px;
+}
+
+#texto{
+	margin-bottom: 40px;
+	font-family: raleway;
+	margin: 27px 0px 00px 0px;
+	font-size: 15px;
+}
+
+#downloadapp{
+	border: 1.5px solid white;
+	border-radius: 2px;
+	color: white;
+	background-color: rgba(0,0,0,0);
+	margin: 68px 0px 00px 0px;
+	width: 230px;
+	height: 53px;
+	font-size: 25px;
+}
+
+#navegacion{
+	background-color: #19293A;
+	color: white;
+	font-family: raleway;
+	display: flex;
+	align-items: center;
+}
+
+#logo{
+	margin: 11px 133px 11px 319px;
+	font-size: 21px;
+}
+#menu{
+	display: flex;
+}
+#seleccion{
+	color: blue;
+}
+
+li{
+	margin: 15px;
+	list-style: none;
+	font-size: 12px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+main{
+	height: 550px;
+}
+
+#primeraparte{
+	/*border:2px solid black;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#textoprimera{
+	/*border:2px solid blue;*/
+	width: 760px;
+	text-align:center;
+	padding: 100px 0 0 0;
+	font-family: raleway;
+}
+
+#textocuerpo{
+	font-size: 50px;
+	font-weight: 100;
+	margin-bottom: 30px;
+}
+
+#parrafocuerpo{
+	font-size: 14px;
+	font-weight: 200;
+	margin-bottom: 45px;
+}
+.cuadrolineas{
+	display: flex;
+	justify-content: center;
+}
+
+#lineas{
+	/*border:2px solid;*/
+	padding: 5px;
+	width: 500px;
+}
+
+#segundaparte{
+	display: flex;
+	justify-content: center;
+}
+
+.tamanosegunda{
+	/*border:2px solid;*/
+	width: 850px;
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+	text-align: center;
+	font-family: raleway;
+}
+
+.caracteristica2{
+	margin: 0 65px;
+}
+
+.titulo-caract{
+	padding-bottom: 20px;
+	font-weight: 500;
+	color: #787676;
+}
+
+.texto-caract{
+	font-weight: 300;
+}
+
+/*FLEXBOX FROGGY*/
+/*CSS DINER*/
+/*what the flexbox*/

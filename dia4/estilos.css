@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.logo{
+	width: 50px;
+	margin: auto;
+	display: block;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.menu{
+	height: 50px;
+}
+
+ul{
+	padding-left: 30%;
+	padding-top: 1%;
+}
+
+li{
+	display: inline;
+	padding-left: 30px;
+}
+
+.fondo{
+	background-image: url("https://image.freepik.com/free-photo/topview-flat-lay-of-business-working-place_1421-104.jpg");
+	background-size: cover;
+	height: 642px;
+}
+
+.titulo{
+	font-family: arial;
+	color: white;
+	font-size: 70px;
+	padding-top: 15%;
+	padding-left: 20%;
+
+}
+
+.subtitulo{
+	font-family: arial;
+	color: white;
+	font-size: 36px;
+	padding-top: 1%;
+	padding-left: 23%;
+}
+
+.botones{
+	padding-left: 38%;
+	padding-top: 5%;
+
+}
+
+#read{
+	background-color: red;
+	width: 150px;
+	height: 40px;
+	border-radius: 3%;
+	border-style: none;
+	color: white;
+	font-family: arial;
+	margin: 1%;
+}
+
+#purchase{
+	background-color: white;
+	width: 180px;
+	height: 40px;
+	border-radius: 3%;
+	border-style: none;
+	font-family: arial;
+
+}
+
+/*materialize */
