@@ -1,0 +1,38 @@
+#carouselExampleControls{
+	height: 500px;
+	overflow: hidden;
+}
+
+.card img{
+	height: 150px;
+}
+
+.seccion-personajes{
+	padding-top: 30px;
+}
+
+.sinopsis-seccion{
+	background-image: url(https://pmcvariety.files.wordpress.com/2017/08/american-gods-title-sequence.jpg?w=700&h=393&crop=1);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	background-position: 0px -75px;
+
+}
+
+.boton-play{
+	font-size: 125px;
+	margin-top: 30px;
+	text-decoration: none;
+	color: white;
+}
+
+.fondo-transparente{
+	background-color: rgba(0,0,0,0.5);
+	padding: 115px 75px 75px 75px;
+}
+
+.titulo-sinopsis{
+	padding-bottom: 20px;
+	font-size: 40px;
+}
