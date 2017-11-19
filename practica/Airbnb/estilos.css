@@ -39,7 +39,7 @@
 /*Principal*/
 /*opciones de hospedaje*/
 .hospedaje{
-	background-color: red;
+	border: 2px solid;
 	height: 100px;
 }
 
