@@ -1,24 +1,30 @@
 .cuerpo{
-	background-color: #342F88;
+	background-color: #b1b2b4;
 	/*border: 2px solid;*/
 	font-family: helvetica;
 }
 .arriba{
-	height: 50px;
+	height: 40px;
+	background-color: #342F88;
+	margin-top: 30px;
+}
+
+.abajo{
+	height: 40px;
+	background-color: #342F88;
+	margin-bottom: 30px;
 }
 
 .izquierda{
-	border: 2px solid red;
+	background-color: #342F88;
 }
 
 .derecha{
-	/*height: 600px;*/
 	background-color: white;
-	/*border: 2px solid green;*/
 }
 
 .datos{
-	padding: 10px 0 30px 0;
+	padding: 10px 0 0px 0;
 }
 
 .foto-perfil{
@@ -48,7 +54,12 @@
 	padding: 10px 0 0 0;
 }
 
-.perfil{
+.cuadros-izquierda{
+	margin: auto;
+	margin-top: 20px;
+}
+
+.titulos-izquierda{
 	width: 75%;
 	height: 50px;
 	background-color: #35c7e1;
@@ -56,6 +67,38 @@
 
 .icono{
 	color: white;
-	font-size: 40px;
-	margin: 0 0 0 10%;
+	font-size: 50px;
+	margin: 5%;
+	/*border: 2px solid;*/
 }
+
+.titulo-perfil{
+	color: white;
+	font-size: 30px;
+	/*border: 2px solid red;*/
+}
+
+.texto-perfil{
+	color: white;
+	font-size: 18px;
+	padding: 7% 7% 0 7%;
+}
+
+.icono-contacto{
+	font-size: 40px;
+}
+
+.contenido-contacto{
+	width: 80%;
+}
+
+.icono-contenido-contacto{
+	font-size: 30px;
+}
+
+.texto-contenido-perfil{
+	color: white;
+	font-size: 17px;
+	/*border: 5px solid;*/
+}
+
