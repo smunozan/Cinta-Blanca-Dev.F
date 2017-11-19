@@ -1,0 +1,50 @@
+/*Navegacion*/
+#logo{
+	padding-right: 10px;
+}
+
+.logo{
+	width: 60px;
+	padding: 15px; 
+}
+
+#navegacion{
+	padding: 10px;
+	border-bottom: 1px solid #dedede;
+}
+
+#barra-busqueda{
+	width: 570px;
+	height: 50px;
+}
+
+.links-navegacion{
+	padding-left: 300px;
+}
+
+/*Filtros*/
+.filtros{
+	border-bottom: 1px solid #dedede;
+	width: 100%;
+}
+
+.contenido-filtros{
+	padding: 12px 0 12px 40px;
+}
+
+.btn{
+	margin: 0 4px;
+}
+
+/*Principal*/
+/*opciones de hospedaje*/
+.hospedaje{
+	background-color: red;
+	height: 100px;
+}
+
+/*mapa*/
+.mapa{
+	background-color: blue;
+	height: 100px;
+}
