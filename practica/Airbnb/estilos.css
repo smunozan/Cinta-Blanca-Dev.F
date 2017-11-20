@@ -39,12 +39,82 @@
 /*Principal*/
 /*opciones de hospedaje*/
 .hospedaje{
-	border: 2px solid;
-	height: 100px;
+	/*border: 2px solid;*/
 }
 
+.ordenar-por{
+	padding: 20px 0 10px 0;
+	/*border: 2px solid red;*/
+}
+
+.lugares{
+	margin: 0px 15px;
+}
+
+.card{
+	border-radius: 6px;
+	width: 305px;
+	border: 0px solid;
+	display: inline-flex;
+	flex-wrap: nowrap;
+	margin: 10px 3px;
+}
+
+.card-body{
+	padding: 5px;
+}
+
+#carouselExampleIndicators{
+	height: 210px;
+	overflow: hidden;
+	border-radius: 6px;
+}
+
+.card-title{
+	margin: 0;
+}
+
+.card-text{
+	margin: 0;
+}
+
+.descripcion1{
+	font-size: 12px;
+}
+
+.descripcion2{
+	font-size: 20px;
+}
+
+.calificacion{
+	display: flex;
+	flex-direction: row;
+}
+
+.material-icons{
+	font-size: 12px;
+	width:7px;
+	color: #008489;
+}
+
+.numero-estrellas{
+	margin-left: 8px;
+	font-size: 15px;
+}
+
+
 /*mapa*/
+
 .mapa{
 	background-color: blue;
-	height: 100px;
+}
+
+.mapa{
+	height: 100%;
+	width: 100%;
+	/*margin:0 -15px;*/
+	position: fixed;
+	top: 144px;
+	left: 1017px;
+	background-image: url(https://www.wired.com/wp-content/uploads/2016/11/GoogleMapTA.jpg);
 }
