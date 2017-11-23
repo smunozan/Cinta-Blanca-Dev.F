@@ -88,15 +88,38 @@
 
 // ------------------------------------------
 
+// var frase = prompt("escribe una frase: ")
+// var fraseCompleta = ""
+
+// var i
+
+// //console.log(fraseSeparada)
+
+// for (i = 0; i < frase.length; i++) {
+// 	if (i%2 == 0) {
+// 		fraseCompleta += frase[i].toUpperCase()
+// 	} else{
+// 		fraseCompleta += frase[i]
+// 	}
+
+	
+// } console.log(fraseCompleta)
+
+// -------------------------------------------
+
 var frase = prompt("escribe una frase: ")
-var fraseCompleta
+var fraseCompleta = ""
+
 var i
 
 for (i = 0; i < frase.length; i++) {
 	if (i%2 == 0) {
-		fraseCompleta[i]+=frase[i].toUpperCase()
-	} else {
-		fraseCompleta[i] = fraseCompleta + frase[i]
+		fraseCompleta += frase[i].toUpperCase()
+	} else{
+		fraseCompleta += frase[i]
 	}
-		 console.log(fraseCompleta)
-}
+
+	
+} console.log(fraseCompleta)
+
+// ------------------------------------------
