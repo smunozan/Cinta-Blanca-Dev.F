@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- Importar fuentes de Google -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- CDN CSS Materialize -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	<title>Hola</title>
+</head>
+<body>
+	<nav class="cyan">
+	  <div class="nav-wrapper">
+	    <a href="#" class="brand-logo">Logo</a>
+	    <ul id="nav-mobile" class="right hide-on-med-and-down">
+	      <li><a href="sass.html">Sass</a></li>
+	      <li><a href="badges.html">Components</a></li>
+	      <li><a href="collapsible.html">JavaScript</a></li>
+	    </ul>
+	  </div>
+	</nav>
+	<div class="container">
+		<h1 class="center">Form</h1>
+	</div>
+
+<!-- Input de materialize que almacena el nombre en JS y lo muestra en el html -->
+	<!-- <div class="input-field col s6">
+	   <input placeholder="Placeholder" id="nombre" type="text" class="validate">
+	   <label for="first_name">First Name</label>
+	</div>
+	<button onclick="traerNombre()">Contactar</button>
+
+	<h1 id="nombreParaMostrar"></h1> -->
+
+
+<!-- Input de formspree que envia la info que ingresa por correo -->
+	<!--<form method="POST" action="http://formspree.io/sebasmunoz694@gmail.com">
+	  <input type="email" name="Email" placeholder="Your email">
+	  <input type="text" name="Nombre" placeholder="Nombre">
+	  <input type="text" name="Telefono" placeholder="Tu telefono">
+	  <textarea name="message" placeholder="Your message"></textarea>
+	  <button type="submit">Send</button>
+	</form> -->
+
+<!-- Calculadora de numero -->
+	<input type="text" placeholder="Ingresa tu numero" id="num1">
+	<input type="text" placeholder="Ingresa tu numero" id="num2">
+	<div>
+		<button onclick="sumaDosNumeros()">Sumar</button>
+		<button onclick="restaDosNumeros()">Restar</button>
+		<button onclick="divisionDosNumeros()">Dividir</button>
+		<button onclick="multiplicacionDosNumeros()">Multiplicar</button>
+	</div>
+	
+
+	<p>El resultado de la</p>
+	<p id="operacion"></p>
+	<p id="resultado"></p>
+
+	<!-- cdn Jquery -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<!-- CDN Javascript materialize -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<!-- Nuestro script -->
+	<script src="ejercicio.js"></script>
+</body>
+</html>
