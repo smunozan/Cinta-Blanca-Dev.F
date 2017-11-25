@@ -19,6 +19,7 @@ function sumaDosNumeros(){
 	console.log(suma)
 
 	document.getElementById("resultado").innerHTML = suma
+	document.getElementById("operacion").innerHTML = "suma"
 }
 
 function restaDosNumeros(){
@@ -30,6 +31,7 @@ function restaDosNumeros(){
 	console.log(suma)
 
 	document.getElementById("resultado").innerHTML = suma
+	document.getElementById("operacion").innerHTML = "resta"
 }
 
 function divisionDosNumeros(){
@@ -41,6 +43,7 @@ function divisionDosNumeros(){
 	console.log(suma)
 
 	document.getElementById("resultado").innerHTML = suma
+	document.getElementById("operacion").innerHTML = "división"
 }
 
 function multiplicacionDosNumeros(){
@@ -52,5 +55,6 @@ function multiplicacionDosNumeros(){
 	console.log(suma)
 
 	document.getElementById("resultado").innerHTML = suma
+	document.getElementById("operacion").innerHTML = "multiplicación"
 }
 
