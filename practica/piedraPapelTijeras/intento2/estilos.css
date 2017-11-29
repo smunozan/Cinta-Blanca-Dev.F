@@ -1,0 +1,151 @@
+#reglas{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 100;
+	background-color: rgba(0, 0, 0, 0.9);
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#reglas span{
+	color: white;
+	font-size: 40px;
+	font-family: raleway;
+	margin: 10px;
+}
+
+#reglas img{
+	margin: 20px;
+	border-radius: 20px;
+}
+
+#reglas button{
+	width: 300px;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 25px;
+	font-family: raleway;
+}
+
+#titulo{
+	margin-top: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#titulo img{
+	width: 30%;
+}
+
+.jugadores{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.nombre{
+	margin: 50px 100px;
+	font-size: 30px;
+	font-family: raleway;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.inputNombre{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.inputNombre input{
+	width: 75%;
+	height: 30px;
+	margin: 15px 0;
+	border-radius: 20px ;
+	border: 1px solid gray;
+}
+
+#siguiente{
+	display: flex; 
+	align-items: center;
+	justify-content: center;
+	margin-top: -50px;
+}
+
+#siguiente button{
+	width: 30%;
+	height: 50px;
+	margin: 15px 0;
+	border-radius: 20px;
+	border: none;
+}
+
+#listo1{
+	display: none;
+}
+
+#listo1-1{
+	display: none;
+}
+
+#listo2{
+	display: none;
+}
+
+#jugador1{
+	font-size: 50px;
+	font-family: raleway;
+}
+
+#jugador2{
+	font-size: 50px;
+	font-family: raleway;
+}
+
+#opciones1{
+	margin-top: 20px;
+}
+
+#opciones2{
+	margin-top: 20px;
+}
+
+.fotos-eleccion{
+	max-width: 150px;
+	max-height: 150px;
+}
+
+#esperando1{
+	display: none;
+	margin: 30px 0;
+	font-size: 40px;
+}
+
+#esperando2{
+	display: none;
+	margin: 30px 0;
+	font-size: 40px;
+}
+
+#todoListo{
+	display: none; 
+	align-items: center;
+	justify-content: center;
+	margin-top: -50px;
+}
+
+#todoListo button{
+	width: 30%;
+	height: 50px;
+	margin: 15px 0;
+	border-radius: 20px;
+	border: none;
+}
