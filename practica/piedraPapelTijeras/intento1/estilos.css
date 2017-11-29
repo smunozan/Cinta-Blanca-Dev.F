@@ -1,0 +1,32 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.jugadores{
+	display: flex;
+}
+
+.oponentes{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 50px;
+}
+
+.boton button{
+	margin: 50px;
+	width: 300px;
+	height: 70px;
+	font-size: 30px;
+}

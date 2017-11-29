@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="estilos.css">
+	<title>Bot</title>
+</head>
+<body class="cuerpo">
+	<div class="main">
+		<div class="mensajes">
+			<div id="mensaje-recibido">
+				<div class="foto"></div>
+				<div class="bubble me">
+					<h3 id="texto-recibido">Como estas?</h3>
+				</div>
+			</div>
+			<div id="mensaje-enviado">
+				<div class="bubble you">
+					<h3 id="texto-enviado"></h3>
+				</div>
+				<div class="foto"></div>
+			</div>
+			<div class="boton">
+				<button>Hola</button>
+			</div>
+		</div>
+		<div class="input-mensaje">
+			<input id="respuesta" class="campo-texto" type="text" placeholder="Escribe tu mensaje..">
+			<button class="boton-enviar" onclick="enviarRespuesta()">></button>
+		</div>
+	</div>
+	<script src="javascript.js"></script>
+</body>
+</html>

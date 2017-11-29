@@ -1,0 +1,35 @@
+.girar{
+	transform: rotate(30deg);
+}
+
+.left{
+	text-align: left;
+}
+
+.derecha{
+	text-align: right;
+}
+
+.centro{
+	text-align: center;
+}
+
+.rojo{
+	color: red;
+}
+
+.caja{
+	height: 500px;
+	width: 500px;
+	border: 1px solid red;
+}
+
+#prueba{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.promocion{
+	width: 500px;
+}

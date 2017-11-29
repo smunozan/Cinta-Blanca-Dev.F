@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="estilos.css">
+	<title>Juego</title>
+</head>
+<body>
+	<h1>Juego</h1>
+	<div class="main">
+		<div class="jugadores">
+			<div class="oponentes">
+				<h2>Jugador 1</h2>
+				<form>
+					<input type="radio" name="opciones" value="piedra" id="jugador1">Piedra
+					<input type="radio" name="opciones" value="papel" id="jugador1">Papel
+					<input type="radio" name="opciones" value="tijera" id="jugador1">Tijera
+				</form>
+			</div>
+			<div class="oponentes">
+				<h2>Jugador 2</h2>
+				<form>
+					<input type="radio" name="opciones" value="piedra" id="jugador2">Piedra
+					<input type="radio" name="opciones" value="papel" id="jugador2">Papel
+					<input type="radio" name="opciones" value="tijera" id="jugador2">Tijera
+				</form>
+			</div>
+		</div>
+		<div class="boton">
+			<button onclick="jugar()">Jugar</button>
+		</div>
+		<div class="respuesta">	
+			<h1></h1>
+		</div>
+		
+	</div>
+	<script src="javascript.js"></script>
+</body>
+</html>

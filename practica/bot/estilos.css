@@ -1,0 +1,80 @@
+body{
+	display: flex;
+	justify-content: center;
+}
+.main {
+	width: 300px;
+	height: 500px;
+	border: 1px solid;
+
+}
+
+/*Campo de burbujas de mensajes*/
+.mensajes{
+	height: 93%;
+	width: 100%;
+}
+
+#mensaje-recibido{
+	/*border:1px solid;*/
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#mensaje-enviado{
+	/*border:1px solid;*/
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+
+.foto{
+	height: 30px;
+	width: 30px;
+	background-color: blue;
+	border-radius: 50%;
+	margin: 2%
+}
+
+.bubble{
+	border: 1px solid blue;
+	border-radius: 30px;
+	width: 65%;
+	margin: 10px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h3{
+	margin: 3%;
+}
+
+/*campo para ingresar texto y boton*/
+
+.input-mensaje{
+	height: 7%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-top: 1px solid gray;
+}
+
+.campo-texto{
+	height: 85%;
+	width: 85%;
+	border: none;
+}
+
+.boton-enviar{
+	height: 85%;
+	width: 10%;
+}
+
+.boton{
+	border: 2px solid;
+	align-self: flex-end;
+}
