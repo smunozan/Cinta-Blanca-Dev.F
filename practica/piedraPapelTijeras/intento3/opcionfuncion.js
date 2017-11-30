@@ -5,7 +5,24 @@ $("#empezar").click(function(){
 var general = this
 
 general.nombre1 = ""
-general.nombre2 = ""
+var nombre2 = "Computadora"
+
+var jugador1
+var jugador2
+
+var min = 1;
+var max = 3;
+var random = Math.floor(Math.random() * (max - min + 1)) + min;
+
+function eleccionComputadora(){
+	if (random == 1) {
+		jugador2 = "piedra"
+	} else if (random == 2) {
+		jugador2 = "papel"
+	} else {
+		jugador2 = "tijeras"
+	}
+}
 
 $("#nombres").click(function(){
 	general.nombre1 = $("#nombre1Jugador").val();
@@ -16,18 +33,17 @@ $("#nombres").click(function(){
 	general.nombre2 = $("#nombre2Jugador").val();
 	$("#nombreJugador2").hide();
 	$("#listo2").css("display", "flex");
-	$("#nombreJug2").html(general.nombre2);
 
 	$("#siguiente").hide();
 })
 
-var jugador1
-var jugador2
-
 $("#piedra1").click(function(){
 	jugador1 = $(this).val();
 	$("#opciones1").hide();
+	$("#pregunta").hide();
 	$("#esperando1").css("display", "flex");
+	$("#eleccion1").html(jugador1);
+	$("#eleccion2").html(jugador1);
 	if (jugador1 !== undefined && jugador2 !== undefined) {
 		$("#todoListo").css("display", "flex");
 	}
@@ -36,7 +52,10 @@ $("#piedra1").click(function(){
 $("#papel1").click(function(){
 	jugador1 = $(this).val();
 	$("#opciones1").hide();
+	$("#pregunta").hide();
 	$("#esperando1").css("display", "flex");
+	$("#eleccion1").html(jugador1);
+	$("#eleccion2").html(jugador1);
 	if (jugador1 !== undefined && jugador2 !== undefined) {
 		$("#todoListo").css("display", "flex");
 	}
@@ -45,45 +64,42 @@ $("#papel1").click(function(){
 $("#tijeras1").click(function(){
 	jugador1 = $(this).val();
 	$("#opciones1").hide();
+	$("#pregunta").hide();
 	$("#esperando1").css("display", "flex");
+	$("#eleccion1").html(jugador1);
+	$("#eleccion2").html(jugador1);
 	if (jugador1 !== undefined && jugador2 !== undefined) {
 		$("#todoListo").css("display", "flex");
 	}
 })
 
-$("#piedra2").click(function(){
-	jugador2 = $(this).val();
-	$("#opciones2").hide();
-	$("#esperando2").css("display", "flex");
-	if (jugador1 !== undefined && jugador2 !== undefined) {
-		$("#todoListo").css("display", "flex");
-	}
-})
+// $("#piedra2").click(function(){
+// 	jugador2 = $(this).val();
+// 	if (jugador1 !== undefined && jugador2 !== undefined) {
+// 		$("#todoListo").css("display", "flex");
+// 	}
+// })
 
-$("#papel2").click(function(){
-	jugador2 = $(this).val();
-	$("#opciones2").hide();
-	$("#esperando2").css("display", "flex");
-	if (jugador1 !== undefined && jugador2 !== undefined) {
-		$("#todoListo").css("display", "flex");
-	}
-})
+// $("#papel2").click(function(){
+// 	jugador2 = $(this).val();
+// 	if (jugador1 !== undefined && jugador2 !== undefined) {
+// 		$("#todoListo").css("display", "flex");
+// 	}
+// })
 
-$("#tijeras2").click(function(){
-	jugador2 = $(this).val();
-	$("#opciones2").hide();
-	$("#esperando2").css("display", "flex");
-	if (jugador1 !== undefined && jugador2 !== undefined) {
-		$("#todoListo").css("display", "flex");
-	}
-})
+// $("#tijeras2").click(function(){
+// 	jugador2 = $(this).val();
+// 	if (jugador1 !== undefined && jugador2 !== undefined) {
+// 		$("#todoListo").css("display", "flex");
+// 	}
+// })
 
 $("#jugar").click(function(){
 	$("#resultado").css("display", "flex");
 
 	if (jugador1=="piedra"){
 		if (jugador2=="papel") {
-			$("#jugadorGanador").html(general.nombre2);
+			$("#jugadorGanador").html(nombre2);
 		}else if (jugador2=="piedra"){
 			$("#confeti").hide();
 			$("#jugadorGanador").html("Ninguno, es un empate!");
@@ -99,7 +115,7 @@ $("#jugar").click(function(){
 		}else if (jugador2=="piedra"){
 			$("#jugadorGanador").html(general.nombre1);
 		}else {
-			$("#jugadorGanador").html(general.nombre2);
+			$("#jugadorGanador").html(nombre2);
 		}
 	}
 
@@ -107,17 +123,13 @@ $("#jugar").click(function(){
 		if (jugador2=="papel") {
 			$("#jugadorGanador").html(general.nombre1);
 		}else if (jugador2=="piedra"){
-			$("#jugadorGanador").html(general.nombre2);
+			$("#jugadorGanador").html(nombre2);
 		}else {
 			$("#confeti").hide();
 			$("#jugadorGanador").html("Ninguno, es un empate!");
 		}
 	}
 })
-$("#jugarOtraVez").click(function(){
-	location.reload();
-})
-
 // ------------------------------------
 
 // Confeti

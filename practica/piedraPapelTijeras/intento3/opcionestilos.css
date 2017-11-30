@@ -30,6 +30,7 @@
 	border-radius: 10px;
 	font-size: 25px;
 	font-family: raleway;
+	margin: 0 30px;
 }
 
 #titulo{
@@ -92,12 +93,14 @@
 	display: none;
 }
 
-#listo1-1{
+#listo2{
 	display: none;
 }
 
-#listo2{
-	display: none;
+.compu {
+	margin: 10px 0;
+	font-size: 50px;
+	font-family: raleway;
 }
 
 #jugador1{
@@ -125,14 +128,28 @@
 
 #esperando1{
 	display: none;
-	margin: 30px 0;
+	margin: 60px 0;
 	font-size: 40px;
+	flex-direction: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 #esperando2{
-	display: none;
-	margin: 30px 0;
+	margin: 60px 0;
 	font-size: 40px;
+	display: flex;
+	flex-direction: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#eleccion1{
+	margin-top: 30px;
+}
+
+#eleccion2{
+	margin-top: 30px;
 }
 
 #todoListo{
@@ -176,11 +193,15 @@
 	border-radius: 20px;
 }
 
-#resultado button{
+#jugarOtraVez{
 	width: 300px;
 	height: 50px;
 	border-radius: 10px;
 	font-size: 25px;
 	font-family: raleway;
+	z-index: 91;
+}
+
+#resultado a{
 	z-index: 91;
 }

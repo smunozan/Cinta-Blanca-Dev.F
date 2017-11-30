@@ -2,16 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="opcionestilos.css">
 	<title>Document</title>
 </head>
 <body>
-	<div id="reglas">
-		<span>¡Bienvenido a Piedra, Papel o Tijeras!</span>
-		<span>Estas son las reglas del juego:</span>
-		<img src="http://imprimalia3d.com/sites/default/files/news/16832-PR-12-650-ede5ec474d-1470317304_0.jpg" alt="">
-		<button id="empezar">Jugar</button>
-	</div>
 	<div id="titulo">
 		<img src="http://1.bp.blogspot.com/-0CGDWWO9u20/UpPO5TS3nhI/AAAAAAAAA5M/WJKUhjEiyBI/s1600/piedra+papel+o+tijera.jpg" alt="">
 	</div>
@@ -25,8 +19,8 @@
 		</div>
 		<div id="listo1" class="nombre">
 			<span>Jugador 1:</span>
-			<span id="nombreJug1"></span>
-			<span>¿Piedra, papel o tijeras?</span>
+			<span class="compu" id="nombreJug1"></span>
+			<span id="pregunta">¿Piedra, papel o tijeras?</span>
 			<div id="opciones1" class="eleccion">
 				<input id="piedra1" value="piedra" type="image" class="fotos-eleccion" src="http://vignette4.wikia.nocookie.net/thelegend-of-zelda-fanon/images/d/d0/Piedra.png/revision/latest?cb=20130329024710&path-prefix=es">
 				<input id="papel1" value="papel" type="image" class="fotos-eleccion" src="https://pre00.deviantart.net/5bad/th/pre/i/2013/003/7/c/papel_viejo_png_by_anahidelapatternal-d5qbi4t.png">
@@ -34,31 +28,28 @@
 			</div>
 			<div id="esperando1">
 				<span>Esperando al otro jugador</span>
+				<div style="display: flex; align-items: center; justify-content: center;">
+					<span id="eleccion1"></span>
+				</div>
 			</div>
 		</div>
 		<div id="nombreJugador2" class="nombre">
-			<span>Jugador 2</span>
-			<span>Ingresa tu nombre:</span>
-			<div class="inputNombre">
-				<input id="nombre2Jugador" type="text">
-			</div>
+			<span>Jugador 2:</span>
+			<span class="compu">Computadora</span>
 		</div>
 		<div id="listo2" class="nombre">
 			<span>Jugador 2:</span>
-			<span id="nombreJug2"></span>
-			<span>¿Piedra, papel o tijeras?</span>
-			<div id="opciones2" class="eleccion">
-				<input id="piedra2" value="piedra" type="image" class="fotos-eleccion" src="http://vignette4.wikia.nocookie.net/thelegend-of-zelda-fanon/images/d/d0/Piedra.png/revision/latest?cb=20130329024710&path-prefix=es">
-				<input id="papel2" value="papel" type="image" class="fotos-eleccion" src="https://pre00.deviantart.net/5bad/th/pre/i/2013/003/7/c/papel_viejo_png_by_anahidelapatternal-d5qbi4t.png">
-				<input id="tijeras2" value="tijeras"  type="image" class="fotos-eleccion" src="https://i0.wp.com/disfrazitos.es/wp-content/uploads/revslider/SLIDER%20NUEVO1/tijeras-png.png?fit=900%2C576">
-			</div>
+			<span class="compu">Computadora</span>
 			<div id="esperando2">
 				<span>Esperando al otro jugador</span>
+				<div style="display: flex; align-items: center; justify-content: center;">
+					<span id="eleccion2"></span>
+				</div>
 			</div>
 		</div>
 	</div>
 	<div id="siguiente">
-		<button id="nombres">Empezar</button>
+		<button onclick="eleccionComputadora()" id="nombres">Empezar</button>
 	</div>
 	<div id="todoListo">
 		<button id="jugar">Jugar</button>
@@ -67,13 +58,13 @@
 		<canvas id="confeti" class="active" width="100%" height="100%" style="position: absolute; top: 0; left: 0;"></canvas>
 		<img src="https://cdn.memegenerator.es/imagenes/memes/full/1/32/1321328.jpg" alt="">
 		<span id="jugadorGanador"></span>
-		<button  id="jugarOtraVez">Jugar otra vez</button>
+		<a href="index.html"><button  id="jugarOtraVez">Jugar otra vez</button></a>
 	</div>
 
 	<script
 	  src="https://code.jquery.com/jquery-3.2.1.js"
 	  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
 	  crossorigin="anonymous"></script>
-	  <script src="funcion.js"></script>
+	  <script src="opcionfuncion.js"></script>
 </body>
 </html>
